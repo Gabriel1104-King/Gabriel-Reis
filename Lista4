@@ -1,0 +1,404 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNKVR5xbkXPdjxl9/SSnJNG",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Gabriel1104-King/Gabriel-Reis/blob/master/Lista4\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "QXqIxiD6yvf_",
+        "outputId": "bf009d07-aaaf-4379-b2db-f097ae79b22e",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "#Disciplina:Probabilidade e Estatísticas \n",
+        "#Aluno: Gabriel Caldeira\n",
+        "#Matricula:20114290082\n",
+        "#Lista4\n",
+        "\n",
+        "#Questão_01\n",
+        "'''Num_Lados = int(input('Informe o número de lados:'))\n",
+        "Med_Lado = int (input('Informe a medida dos lados:'))\n",
+        "\n",
+        "if Num_Lados == 3:\n",
+        "  área = Med_Lado ** 2 * 3 ** (1/2)/4\n",
+        "  print('É um triângulo!')\n",
+        "  print('A área é:% .2fcm²'%área)\n",
+        "elif Num_Lados == 4:\n",
+        "  área  = Med_Lado **2\n",
+        "  print('É um quadrado!')\n",
+        "  print('A área é:% .2fcm²'%área)\n",
+        "elif Num_Lados == 5:\n",
+        "  print(' É um pentágono!')'''"
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Informe o número de lados:3\n",
+            "Informe a medida dos lados:2\n",
+            "É um triângulo!\n",
+            "A área é: 1.73cm²\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "_Gy6Hz61sNuh",
+        "outputId": "7f6d49cf-0366-443c-bec2-9168bb8a9d85",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 145
+        }
+      },
+      "source": [
+        "#Questão_02\n",
+        "'''Num_Lados = int(input('Informe o número de lados:'))\n",
+        "Med_Lado = int (input('Informe a medida dos lados'))\n",
+        "\n",
+        "if Num_Lados == 3:\n",
+        "  área = Med_Lado ** 2 * 3 **(1/2)/4\n",
+        "  print('É um triângulo!')\n",
+        "  print('A área é:%. 2fcm²'%área)\n",
+        "elif Num_Lados <3:\n",
+        "  print('NÃO É UM POLÍGNO!')\n",
+        "elif Num_Lados == 4:\n",
+        "  área = Med_Lado ** 2 \n",
+        "  print('É um quadrado!')\n",
+        "  print('A área é:% .2fcm²'%área)\n",
+        "elif Num_Lados == 5:\n",
+        "  print('É um pentágono!')\n",
+        "elif Num_Lados >5:\n",
+        "  print ('Desculpe,mas o Polígno NÃO foi ENCONTRADO')'''"
+      ],
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-11-940a94ca6a5c>\"\u001b[0;36m, line \u001b[0;32m18\u001b[0m\n\u001b[0;31m    '''  print ('Desculpe,mas o Polígno NÃO foi ENCONTRADO')'''\u001b[0m\n\u001b[0m                                                               \n^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Y0e02TMou2qe",
+        "outputId": "816e6566-17bb-4db3-9432-68a167359724",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "#Questão_03\n",
+        "'''Num1 = int (input('Inisra o primeiro número inteiro:'))\n",
+        "Num2 = int (input('Insira o segundo número inteiro:'))\n",
+        "Num3 = int (input('Insira o terceiro número inteiro:'))\n",
+        "print('O maior número é:',max(Num1,Num2,Num3))'''"
+      ],
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Inisra o primeiro número inteiro:20\n",
+            "Insira o segundo número inteiro:30\n",
+            "Insira o terceiro número inteiro:10\n",
+            "O maior número é: 30\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "zLsfI0TTv2eA",
+        "outputId": "2c8c6894-58e5-407a-cfe3-a0fa763630a0",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "#Questão_04\n",
+        "'''LadoA = float (input('Informe a primeira medida:'))\n",
+        "LadoB = float (input('Informe a segunda medida:'))\n",
+        "LadoC = float (input('Informe a terceira medida:'))\n",
+        "\n",
+        "if LadoA == LadoB == LadoC:\n",
+        "  print ('O triângulo é equilátero !')\n",
+        "if LadoA!= LadoB == LadoC:\n",
+        "  print ('É um triângulo Isósceles!')\n",
+        "if LadoA == LadoB!= LadoC:\n",
+        "  print ('É um triângulo Isósceles!')\n",
+        "if LadoA == LadoC!= LadoB:\n",
+        "  print('É um triângulo Isósceles!')\n",
+        "if LadoA != LadoB != LadoC:\n",
+        "  print('O triângulo é Escaleno!')'''"
+      ],
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Informe a primeira medida:30\n",
+            "Informe a segunda medida:25\n",
+            "Informe a terceira medida:25\n",
+            "É um triângulo Isósceles!\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "JEhev_8py9nU",
+        "outputId": "aa2fea9a-f763-4241-83ca-2d35f433128c",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "#Questão_05\n",
+        "'''ÂnguloA = float (input('Informe o primeiro ângulo :'))\n",
+        "ÂnguloB = float (input('Informe o segundo ângulo:'))\n",
+        "ÂnguloC = float (input('Informe o terceiro ângulo:'))\n",
+        "\n",
+        "if  ÂnguloA == ÂnguloB == ÂnguloC == 90:\n",
+        "  print('O triângulo é retângulo!')\n",
+        "if  ÂnguloA == ÂnguloB == ÂnguloC > 90:\n",
+        "  print ('O triângulo é obtsângulo!')\n",
+        "if ÂnguloA == ÂnguloB == ÂnguloC <90:\n",
+        "  print('O triângulo é Acutângulo!')'''"
+      ],
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Informe o primeiro ângulo :20\n",
+            "Informe o segundo ângulo:20\n",
+            "Informe o terceiro ângulo:20\n",
+            "O triângulo é Acutângulo!\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "iiaD_q7n03qk",
+        "outputId": "948879fc-e1cd-4ef3-f1d9-cb4abd3fd0c1",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "#Questão_06\n",
+        "'''Num22 = int (input('Digite  um número inteiro:'))\n",
+        "for  ORDEM in range(Num22):\n",
+        "  print(ORDEM)'''"
+      ],
+      "execution_count": 28,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Digite  um número inteiro:22\n",
+            "0\n",
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n",
+            "7\n",
+            "8\n",
+            "9\n",
+            "10\n",
+            "11\n",
+            "12\n",
+            "13\n",
+            "14\n",
+            "15\n",
+            "16\n",
+            "17\n",
+            "18\n",
+            "19\n",
+            "20\n",
+            "21\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "j8uW0fUY18ku",
+        "outputId": "c8340e4d-804f-47a1-9b9b-888cce076a82",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 522
+        }
+      },
+      "source": [
+        "#Questão_07\n",
+        "'''NumM = float (input('Insira um número'+_+':'))\n",
+        "\n",
+        "if NumM <1 or NumM >4:\n",
+        " while True :\n",
+        "    print('Entrada INVÁLIDA !!!, Insira um número entre 1 e 4!:')\n",
+        "    NumM = float (input('Insira um número '+_+ ':'))\n",
+        "    if NumM >= 0 and NumM <= 4:  break'''"
+      ],
+      "execution_count": 65,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "KeyboardInterrupt",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m/usr/local/lib/python3.6/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m    728\u001b[0m             \u001b[0;32mtry\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 729\u001b[0;31m                 \u001b[0mident\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mreply\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0msession\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mrecv\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mstdin_socket\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m0\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    730\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mException\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.6/dist-packages/jupyter_client/session.py\u001b[0m in \u001b[0;36mrecv\u001b[0;34m(self, socket, mode, content, copy)\u001b[0m\n\u001b[1;32m    802\u001b[0m         \u001b[0;32mtry\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 803\u001b[0;31m             \u001b[0mmsg_list\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0msocket\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mrecv_multipart\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmode\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mcopy\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mcopy\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    804\u001b[0m         \u001b[0;32mexcept\u001b[0m \u001b[0mzmq\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mZMQError\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0me\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.6/dist-packages/zmq/sugar/socket.py\u001b[0m in \u001b[0;36mrecv_multipart\u001b[0;34m(self, flags, copy, track)\u001b[0m\n\u001b[1;32m    490\u001b[0m         \"\"\"\n\u001b[0;32m--> 491\u001b[0;31m         \u001b[0mparts\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m[\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mrecv\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mflags\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mcopy\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mcopy\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtrack\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mtrack\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    492\u001b[0m         \u001b[0;31m# have first part already, only loop while more to receive\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32mzmq/backend/cython/socket.pyx\u001b[0m in \u001b[0;36mzmq.backend.cython.socket.Socket.recv\u001b[0;34m()\u001b[0m\n",
+            "\u001b[0;32mzmq/backend/cython/socket.pyx\u001b[0m in \u001b[0;36mzmq.backend.cython.socket.Socket.recv\u001b[0;34m()\u001b[0m\n",
+            "\u001b[0;32mzmq/backend/cython/socket.pyx\u001b[0m in \u001b[0;36mzmq.backend.cython.socket._recv_copy\u001b[0;34m()\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.6/dist-packages/zmq/backend/cython/checkrc.pxd\u001b[0m in \u001b[0;36mzmq.backend.cython.checkrc._check_rc\u001b[0;34m()\u001b[0m\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m: ",
+            "\nDuring handling of the above exception, another exception occurred:\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-65-e434af45de80>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;31m#Questão_07\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0mNumM\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mfloat\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'Insira um número'\u001b[0m\u001b[0;34m+\u001b[0m\u001b[0m_\u001b[0m\u001b[0;34m+\u001b[0m\u001b[0;34m':'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      3\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0;32mif\u001b[0m \u001b[0mNumM\u001b[0m \u001b[0;34m<\u001b[0m\u001b[0;36m1\u001b[0m \u001b[0;32mor\u001b[0m \u001b[0mNumM\u001b[0m \u001b[0;34m>\u001b[0m\u001b[0;36m4\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m  \u001b[0;32mwhile\u001b[0m \u001b[0;32mTrue\u001b[0m \u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.6/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36mraw_input\u001b[0;34m(self, prompt)\u001b[0m\n\u001b[1;32m    702\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_ident\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    703\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_header\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 704\u001b[0;31m             \u001b[0mpassword\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mFalse\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    705\u001b[0m         )\n\u001b[1;32m    706\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.6/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m    732\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    733\u001b[0m                 \u001b[0;31m# re-raise KeyboardInterrupt, to truncate traceback\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 734\u001b[0;31m                 \u001b[0;32mraise\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    735\u001b[0m             \u001b[0;32melse\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    736\u001b[0m                 \u001b[0;32mbreak\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m: "
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "YKScUNC77Q-P",
+        "outputId": "d20656b9-a21d-47c8-ab2f-9add1f8930b2",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 723
+        }
+      },
+      "source": [
+        "#Questão_08\n",
+        "'''Valor = int (input('Digite um valor inteiro:'))\n",
+        "Valores = []\n",
+        "\n",
+        "while (Valor!=0):\n",
+        "   Valores.append(Valor)\n",
+        "   print(Valores)\n",
+        "   maior = max(Valores)\n",
+        "   print('Maior valor digitado:',maior)\n",
+        "   Valor = int(input('Digite um valor inteiro:'))\n",
+        "else:\n",
+        "  print('Termino do programa')'''"
+      ],
+      "execution_count": 66,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Digite um valor inteiro:3\n",
+            "[3]\n",
+            "Maior valor digitado: 3\n",
+            "Digite um valor inteiro:2\n",
+            "[3, 2]\n",
+            "Maior valor digitado: 3\n",
+            "Digite um valor inteiro:4\n",
+            "[3, 2, 4]\n",
+            "Maior valor digitado: 4\n",
+            "Digite um valor inteiro:67\n",
+            "[3, 2, 4, 67]\n",
+            "Maior valor digitado: 67\n"
+          ],
+          "name": "stdout"
+        },
+        {
+          "output_type": "error",
+          "ename": "KeyboardInterrupt",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m/usr/local/lib/python3.6/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m    728\u001b[0m             \u001b[0;32mtry\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 729\u001b[0;31m                 \u001b[0mident\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mreply\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0msession\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mrecv\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mstdin_socket\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m0\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    730\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mException\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.6/dist-packages/jupyter_client/session.py\u001b[0m in \u001b[0;36mrecv\u001b[0;34m(self, socket, mode, content, copy)\u001b[0m\n\u001b[1;32m    802\u001b[0m         \u001b[0;32mtry\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 803\u001b[0;31m             \u001b[0mmsg_list\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0msocket\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mrecv_multipart\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mmode\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mcopy\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mcopy\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    804\u001b[0m         \u001b[0;32mexcept\u001b[0m \u001b[0mzmq\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mZMQError\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0me\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.6/dist-packages/zmq/sugar/socket.py\u001b[0m in \u001b[0;36mrecv_multipart\u001b[0;34m(self, flags, copy, track)\u001b[0m\n\u001b[1;32m    490\u001b[0m         \"\"\"\n\u001b[0;32m--> 491\u001b[0;31m         \u001b[0mparts\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m[\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mrecv\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mflags\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mcopy\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mcopy\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtrack\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mtrack\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    492\u001b[0m         \u001b[0;31m# have first part already, only loop while more to receive\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32mzmq/backend/cython/socket.pyx\u001b[0m in \u001b[0;36mzmq.backend.cython.socket.Socket.recv\u001b[0;34m()\u001b[0m\n",
+            "\u001b[0;32mzmq/backend/cython/socket.pyx\u001b[0m in \u001b[0;36mzmq.backend.cython.socket.Socket.recv\u001b[0;34m()\u001b[0m\n",
+            "\u001b[0;32mzmq/backend/cython/socket.pyx\u001b[0m in \u001b[0;36mzmq.backend.cython.socket._recv_copy\u001b[0;34m()\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.6/dist-packages/zmq/backend/cython/checkrc.pxd\u001b[0m in \u001b[0;36mzmq.backend.cython.checkrc._check_rc\u001b[0;34m()\u001b[0m\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m: ",
+            "\nDuring handling of the above exception, another exception occurred:\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-66-c6a507c7cb70>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      8\u001b[0m    \u001b[0mmaior\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mmax\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mValores\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      9\u001b[0m    \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'Maior valor digitado:'\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mmaior\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 10\u001b[0;31m    \u001b[0mValor\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'Digite um valor inteiro:'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     11\u001b[0m \u001b[0;32melse\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     12\u001b[0m   \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m'Termino do programa'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.6/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36mraw_input\u001b[0;34m(self, prompt)\u001b[0m\n\u001b[1;32m    702\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_ident\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    703\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_header\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 704\u001b[0;31m             \u001b[0mpassword\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mFalse\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    705\u001b[0m         )\n\u001b[1;32m    706\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.6/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m    732\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    733\u001b[0m                 \u001b[0;31m# re-raise KeyboardInterrupt, to truncate traceback\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 734\u001b[0;31m                 \u001b[0;32mraise\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    735\u001b[0m             \u001b[0;32melse\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    736\u001b[0m                 \u001b[0;32mbreak\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m: "
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "QESj-kB2AzSg"
+      },
+      "source": [
+        "#Questão_09\n",
+        "'''Num = int(input('Digite um número de quatro dígitos:'))\n",
+        "Nu = Num//1%10\n",
+        "Nd = Num//10%10\n",
+        "Nc = Num//100%10\n",
+        "Nm = Num//1000% 10 \n",
+        "print('UNIDADE:',Nu)\n",
+        "print('DEZENA:',Nd)\n",
+        "print('CENTENA:',Nc)\n",
+        "print('MILHAR:0',Nm)'''"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
